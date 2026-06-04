@@ -1,0 +1,200 @@
+.footer {
+    background-color: #000000; /* Dark background */
+    color: white; /* Light text color */
+    padding: 80px 0;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo-section {
+    margin-left: 40px;
+    max-width: 250px;
+}
+
+.footer-logo img {
+    width: 250px;
+}
+
+.footer-logo-section p {
+    margin: 15px 0;
+}
+
+.footer-social-icons a {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer-social-icons a:hover {
+    color: #004aad; /* Accent color */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    flex-grow: 2;
+}
+
+.footer-column {
+    margin: 0 20px;
+}
+
+.footer-column h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+.footer-column ul li a:hover {
+    color: #004aad; /* Accent color */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-bottom a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+/* Base Styles - for screens larger than 1280px */
+@media (min-width: 1280px) {
+    /* No changes needed for larger screens, keeping the base styles */
+}
+
+/* Media Query for 1280px and below */
+@media (max-width: 1280px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 60px 20px;
+    }
+
+    .footer-logo-section {
+        max-width: 200px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-column {
+        margin: 0 10px;
+    }
+}
+
+/* Media Query for 1024px and below */
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 10px;
+    }
+
+    .footer-logo-section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+        width: 180px;
+    }
+}
+
+/* Media Query for 800px and below */
+@media (max-width: 800px) {
+    .footer-container {
+        padding: 40px 10px;
+    }
+
+    .footer-logo img {
+        width: 150px;
+    }
+
+    .footer-column h4 {
+        font-size: 18px;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        padding-top: 10px;
+    }
+}
+
+/* Media Query for 500px and below */
+@media (max-width: 500px) {
+    .footer-container {
+        padding: 10px 0px;
+    }
+
+    .footer-logo img {
+        width: 180px;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 6px;
+    }
+
+    .footer-column h4 {
+        font-size: 16px;
+    }
+
+    .footer-column ul li a {
+        font-size: 16px;
+    }
+
+    .footer-social-icons a {
+        margin: 0 5px;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+}

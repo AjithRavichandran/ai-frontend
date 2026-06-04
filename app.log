@@ -1,0 +1,234 @@
+2025-05-22 13:05:57,450 - __main__ - INFO - Starting AI App Generator Backend
+2025-05-22 13:05:57,451 - __main__ - INFO - Server: 0.0.0.0:5000
+2025-05-22 13:05:57,452 - __main__ - INFO - Debug mode: False
+2025-05-22 13:05:57,452 - __main__ - INFO - Ollama API: http://localhost:11434/api
+2025-05-22 13:05:57,453 - __main__ - INFO - Default model: qwen2.5vl:7b
+2025-05-22 13:05:57,453 - __main__ - INFO - Upload folder: uploads
+2025-05-22 13:05:57,489 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-05-22 13:05:57,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 13:06:10,910 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:06:10,912 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:06:10] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:06:12,944 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:06:12,945 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:06:12] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:06:12,959 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:06:12,960 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:06:12] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:06:17,368 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:06:17,369 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:06:17] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:32:42,876 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:32:42,877 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:32:42] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:32:44,899 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:32:44,900 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:32:44] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:32:44,923 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:32:44,924 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:32:44] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:32:49,316 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:32:49,317 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:32:49] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:33:41,073 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: sample login page
+...
+2025-05-22 13:35:43,130 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 13:35:43,132 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:35:43] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 13:36:41,748 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:36:41,749 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:36:41] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:36:43,778 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:36:43,779 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:36:43] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:36:43,794 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 13:36:43,795 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:36:43] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 13:36:48,167 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 13:36:48,168 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:36:48] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 13:36:56,256 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: sample employe form ...
+2025-05-22 13:38:58,304 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 13:38:58,306 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:38:58] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 14:06:40,539 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: sample login page
+
+...
+2025-05-22 14:08:39,590 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:08:39,592 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:08:39] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:08:41,632 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:08:41,633 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:08:41] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:08:41,934 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:08:41,935 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:08:41] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:08:42,592 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 14:08:42,593 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:08:42] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 14:08:46,033 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:08:46,034 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:08:46] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:22,654 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:22,655 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:22] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:24,693 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:24,695 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:24] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:24,707 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:24,708 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:24] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:27,972 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:27,973 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:27] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:29,087 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:29,088 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:29] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:30,329 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:30,330 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:30] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:33,512 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:33,513 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:33] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:37,958 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:37,959 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:37] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:41,208 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:41,209 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:41] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:43,264 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:43,265 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:43] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:43,295 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:43,296 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:43] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:45,619 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:45,620 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:45] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:47,703 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:47,704 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:47] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:47,998 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:10:47,999 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:47] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:10:52,147 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:52,148 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:52] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:10:56,572 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:10:56,573 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:10:56] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:01,414 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:01,415 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:01] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:03,457 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:03,458 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:03] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:03,473 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:03,474 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:03] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:07,874 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:07,875 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:07] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:17,379 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:17,380 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:17] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:19,425 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:19,426 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:19,427 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:19] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:19,427 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:19] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:21,804 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:21,806 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:21] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:23,870 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:23,871 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:23] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:24,192 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:24,193 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:24] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:26,218 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:26,219 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:26] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:26,543 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:26,544 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:26] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:28,914 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:28,915 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:28] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:30,640 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:30,641 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:30] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:31,275 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:31,276 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:31] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:33,629 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:33,630 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:33] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:34,370 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:34,371 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:34] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:35,975 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:35,976 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:35] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:38,328 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:38,329 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:38] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:38,743 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:38,743 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:38] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:43,136 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:43,137 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:43] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:44,047 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:44,048 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:44] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:46,408 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:46,409 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:46] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:47,560 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:47,561 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:47] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:48,757 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:48,758 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:48] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:51,124 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 14:11:51,125 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:51] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 14:11:52,008 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:52,010 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:52] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:11:56,435 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:11:56,436 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:11:56] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:12:00,873 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:12:00,874 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:12:00] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:12:05,323 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 14:12:05,324 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:12:05] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 14:17:50,223 - __main__ - INFO - Starting AI App Generator Backend
+2025-05-22 14:17:50,223 - __main__ - INFO - Server: 0.0.0.0:5000
+2025-05-22 14:17:50,224 - __main__ - INFO - Debug mode: False
+2025-05-22 14:17:50,224 - __main__ - INFO - Ollama API: http://localhost:11434/api
+2025-05-22 14:17:50,224 - __main__ - INFO - Default model: qwen2.5vl:7b
+2025-05-22 14:17:50,225 - __main__ - INFO - Upload folder: uploads
+2025-05-22 14:17:50,247 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-05-22 14:17:50,247 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 14:45:32,352 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: employee form...
+2025-05-22 14:47:34,436 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 14:47:34,440 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 14:47:34] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 15:14:51,016 - __main__ - INFO - Starting AI App Generator Backend
+2025-05-22 15:14:51,017 - __main__ - INFO - Server: 0.0.0.0:5000
+2025-05-22 15:14:51,017 - __main__ - INFO - Debug mode: False
+2025-05-22 15:14:51,017 - __main__ - INFO - Ollama API: http://localhost:11434/api
+2025-05-22 15:14:51,017 - __main__ - INFO - Default model: qwen2.5vl:7b
+2025-05-22 15:14:51,017 - __main__ - INFO - Upload folder: uploads
+2025-05-22 15:14:51,037 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-05-22 15:14:51,038 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 15:14:58,783 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: login form...
+2025-05-22 15:15:18,422 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 15:15:18,424 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:15:18] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 15:15:20,456 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 15:15:20,457 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 15:15:20,458 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:15:20] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 15:15:20,458 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:15:20] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 15:15:24,655 - __main__ - INFO - Generating with model qwen2.5vl:7b for prompt: login form...
+2025-05-22 15:15:24,843 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 15:15:24,844 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:15:24] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 15:17:00,826 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 15:17:00,827 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:17:00] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 15:17:26,708 - __main__ - ERROR - Request timeout while generating code
+2025-05-22 15:17:26,708 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 15:17:26] "[35m[1mPOST /api/generate HTTP/1.1[0m" 504 -
+2025-05-22 16:29:03,571 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:29:03,604 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:29:03] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:29:05,611 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:29:05,614 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:29:05] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:29:05,965 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:29:05,966 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:29:05] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:29:10,059 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:29:10,060 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:29:10] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:06,389 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:06,390 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:06] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:08,431 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:08,432 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:08] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:08,433 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:08,435 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:08] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:10,803 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:10,805 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:10] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:12,898 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:12,899 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:12] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:13,160 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:13,161 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:13] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:17,333 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:17,335 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:17] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:21,735 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:21,736 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:21] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:27,340 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:27,341 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:27] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:29,368 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 16:35:29,368 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:29,369 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:29] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 16:35:29,370 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:29] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 16:35:33,759 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 16:35:33,761 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 16:35:33] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 17:14:38,392 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 17:14:38,395 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:38] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 17:14:40,449 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 17:14:40,450 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:40] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 17:14:40,776 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 17:14:40,776 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:40] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 17:14:43,142 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 17:14:43,143 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:43] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 17:14:44,879 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 17:14:44,880 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:44] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 17:14:45,502 - __main__ - INFO - Retrieved 1 models from Ollama
+2025-05-22 17:14:45,503 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:45] "GET /api/models HTTP/1.1" 200 -
+2025-05-22 17:14:49,291 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 17:14:49,292 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:49] "GET /api/healthcheck HTTP/1.1" 200 -
+2025-05-22 17:14:53,683 - __main__ - INFO - Health check successful - Ollama v0.7.0, 1 models available
+2025-05-22 17:14:53,685 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 17:14:53] "GET /api/healthcheck HTTP/1.1" 200 -
